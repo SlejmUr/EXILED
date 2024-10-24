@@ -861,7 +861,7 @@ namespace Exiled.API.Features
                 if (value > MaxHealth)
                     MaxHealth = value;
 
-                healthStat = value;
+                healthStat.CurValue = value;
             }
         }
 
